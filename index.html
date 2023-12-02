@@ -1,41 +1,74 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>fandyfr.github.io</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel="shortcut icon" href="assets/icon/icon.jpg" type="image/x-icon">
-    <link rel='stylesheet' type='text/css' media='screen' href='styles/style.css'>
+    <!-- META -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Content" content="IE=edge">
+    <!-- Link To CSS & Favicon -->
+    <link rel="stylesheet" href="styles/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- FavIcon -->
+    <link rel="shortcut icon" href="#" type="image/x-icon">
+    <!-- Title -->
+    <title>My Website</title>
 </head>
-
 <body>
-    <div class="wrapper">
-        <div class="error">
-            <div class="number">4</div>
-            <div class="illustration">
-                <div class="circle"></div>
-                <div class="clip">
-                    <div class="paper">
-                        <div class="face">
-                            <div class="eyes">
-                                <div class="eye eye__left"></div>
-                                <div class="eye eye__right"></div>
-                            </div>
-                            <div class="cheeks cheeks__left"></div>
-                            <div class="cheeks cheeks__right"></div>
-                            <div class="mouth"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="number">4</div>
-        </div>
-        
-        <div class="text">Belum ada main Website bre, jangan lupa kunjungi web dibawah ini yaa..</div>
-        <a class="button" href="https://fandyfr.github.io/portofolio">My Portofolio</a>
-    </div>
-</body>
+    <header id="header">
 
+        <nav id="navbar">
+          <ul>
+            <li><a href="https://fandyfr.github.io/"> Home  <span><i class='bx bx-home-alt' ></i></span></a><li>
+            <li><a href="#projects-container"> Projects <span><i class='bx bx-git-branch' ></i></span></a><li>
+            <li><a href="https://fandyfr.github.io/portofolio"> Portofolio <span><i class='bx bxl-sketch' ></i></span></a><li>
+            <li><a href="https://github.com/Fandyfr"> My GitHub <span><i class='bx bxl-github' ></i></span></a><li>
+            <li><a href="https://github.com/sponsors/Fandyfr"> Join My Sponsors GitHub <span class="heart"><i class='bx bxs-heart' ></i></span></a><li>
+          </ul>
+        </nav>
+    
+    
+        <div id="responsive-header">
+    
+          <div id="menu-button">
+            <button class="menu-icon">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+          </div>
+    
+          <ul id="responsive-navbar">
+            <li id="home-menu"><a href="https://fandyfr.github.io/"> Home  <span><i class='bx bx-home-alt' ></i></span></a><li>
+            <li id="projects-menu"><a href="#projects-container"> Projects <span><i class='bx bx-git-branch' ></i></span></a><li>
+            <li id="blogs-menu"><a href="https://fandyfr.github.io/portofolio"> Portofolio <span><i class='bx bxl-sketch' ></i></span></a><li>
+            <li id="other-menu"><a href="https://github.com/Fandyfr"> My GitHub <span><i class='bx bxl-github' ></i></span></a><li>
+            <li id="other-menu"><a href="https://github.com/sponsors/Fandyfr"> Join My Sponsors GitHub <span class="heart"><i class='bx bxs-heart' ></i></span></a><li>
+            </ul>
+        </div>
+    
+      </header>
+
+      <!-- Kartu Ucapan -->
+      <div id="welcome-section">
+        <div id="welcome-section-content">
+        <h1 id="welcome-section-title"> Hi, I'm FandyFr. </h1>
+        <p class="teks">I am <span class="typedText"></span></p>
+        </div>
+      </div>
+
+      <!-- Buy Web Me :) -->
+      <div class="tombol-beli">
+        <button class="tombol"><span><i class='bx bx-cart'></i></span> Buy my Website</button>
+      </div>
+    
+     <!-- JavaScript/jQuery -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+     <script src="js/script.js"></script>
+     <!-- Type JS -->
+     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+     <script src="js/penulis.js"></script>
+     <!-- Script JS -->
+     <script src="js/script.js"></script>
+    
+</body>
 </html>

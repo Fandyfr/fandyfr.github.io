@@ -32,3 +32,6 @@ $(document).ready(function(){
       $("#responsive-nav-bar").slideToggle(200);
     });
   })
+
+  $('#efek').hide();
+    $('#efek').fadeIn(1000);

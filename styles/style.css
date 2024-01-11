@@ -7,7 +7,7 @@
     border: 0;
     box-sizing: border-box;
   }
-  
+
   html {
     overflow-x: hidden;
     scroll-behavior: smooth;
@@ -90,6 +90,12 @@
     transition: background-color 0.5s ease;
     #navbar a {
       color: white;
+    }
+    .kejutan {
+      border: 5px solid white;
+    }
+    #countdown {
+      color: #bcbcbc;
     }
     #navbar ul li a:hover {
       color: #bcbcbc;
@@ -310,3 +316,32 @@
   .menu-icon:hover span:last-child {
     transform: rotate(-45deg);
   }
+
+
+/* Event Special */
+
+.kejutan {
+  display: block;
+  margin-top: 80px;
+  font-family: 'Arial', sans-serif;
+  border: 5px solid rgb(0, 0, 0);
+  border-radius: 50px;
+  padding: 20px;
+  text-align: center;
+}
+
+#countdown {
+  font-size: 2em;
+  color: #333;
+}
+
+#suprise {
+  display: none;
+  font-size: 1.5em;
+  color: #e44d26;
+  margin-top: 20px;
+}
+
+
+/* Mobile Respondsive BETA */
+

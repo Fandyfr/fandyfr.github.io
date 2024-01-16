@@ -331,12 +331,12 @@
 }
 
 #countdown {
+  display: none;
   font-size: 2em;
   color: #333;
 }
 
 #suprise {
-  display: none;
   font-size: 1.5em;
   color: #e44d26;
   margin-top: 20px;

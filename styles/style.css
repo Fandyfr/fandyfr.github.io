@@ -316,55 +316,6 @@
   .menu-icon:hover span:last-child {
     transform: rotate(-45deg);
   }
-
-
-/* Event Special */
-
-.kejutan {
-  display: block;
-  margin-top: 80px;
-  font-family: 'Arial', sans-serif;
-  border: 5px solid rgb(0, 0, 0);
-  border-radius: 50px;
-  padding: 20px;
-  text-align: center;
-}
-
-#countdown {
-  display: none;
-  font-size: 2em;
-  color: #333;
-}
-
-#suprise {
-  display: add;
-  font-size: 1.5em;
-  color: #e44d26;
-  margin-top: 20px;
-}
-
-#suprise button {
-  font-size: 24px;
-  margin-top: 20px;
-  display: inline-block;
-  padding: 15px 20px;
-  background-color: #25D366; /* Warna hijau WhatsApp */
-  color: #fff;
-  text-decoration: none;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-#suprise button span {
-  margin: 10px;
-  vertical-align: middle;
-}
-
-#suprise button:hover {
-  background-color: #128C7E; /* Warna hijau tua WhatsApp saat dihover */
-}
-
+  
 /* Mobile Respondsive BETA */
 
